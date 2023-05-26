@@ -30,7 +30,9 @@ export default function Dashboard() {
     //   </Box>
     // </Container>
     <SimpleGrid p="10px" spacing={10} minChildWidth={"250px"}>
-      <Box bg='white' h="200px" border={"1px"}></Box>
+      <Box bg='white' h="200px" border={"1px"}>
+        <Text color={{base:'pink.700',md:"blue.700",lg:'green.700'}}>Hello</Text>
+      </Box>
       <Box bg='white' h="200px" border={"1px"}></Box>
       <Box bg='white' h="200px" border={"1px"}></Box>
       <Box bg='white' h="200px" border={"1px"}></Box>
